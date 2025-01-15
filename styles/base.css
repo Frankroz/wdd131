@@ -60,11 +60,9 @@ nav a:hover {
 *
 ************************************/
 main {
-  width: 95%;
-  margin: 50px auto;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
 }
 
 section.card {
@@ -72,6 +70,7 @@ section.card {
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   justify-content: center;
+  margin: 20px;
 }
 
 .card_heading {
@@ -144,7 +143,12 @@ p {
   border-radius: 5px;
   text-align: center;
   font-size: 1.4rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list>ul>li>a {
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 /***********************************
