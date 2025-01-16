@@ -1,28 +1,3 @@
-// Dynamically creating the photos
-const temple_list = document.getElementById("temple_list");
-
-const temple = {
-  name: "Draper Utah Temple",
-  image: "images/draper_utah_temple.jpg",
-  description: "draper_utah_temple",
-};
-
-// Loop through and create figure elements
-for (let i = 0; i < 9; i++) {
-  const figure = document.createElement("figure");
-
-  const img = document.createElement("img");
-  img.src = temple.image;
-  img.alt = temple.description;
-  figure.appendChild(img);
-
-  const figcaption = document.createElement("figcaption");
-  figcaption.textContent = temple.name;
-  figure.appendChild(figcaption);
-
-  temple_list.appendChild(figure);
-}
-
 const menu = document.querySelector("nav");
 const header_title = document.getElementById("header_title");
 const menu_icon = document.getElementById("menu_icon");
