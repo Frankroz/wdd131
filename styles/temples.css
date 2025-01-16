@@ -1,0 +1,135 @@
+:root {
+  --primary-color: #3e78b2;
+  --secondary-color: #498467;
+  --third-color: #272d2d;
+  --text-color: #2a2b2a;
+  --background-color: #f8f4e3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+/***********************************
+*
+*   Header styles
+*
+************************************/
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header > h1 {
+  display: none;
+  padding: 30px;
+  margin: 0;
+  font-size: 2em;
+}
+
+nav {
+  display: none;
+  padding: 10px;
+  font-size: 1.8rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#menu_icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#close_icon {
+  display: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.show {
+  display: flex;
+}
+
+/***********************************
+*
+*   Main content style
+*
+************************************/
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: calc(100vh - 200px);
+}
+
+#temple_list {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/***********************************
+*
+*   Footer style
+*
+************************************/
+footer {
+  padding: 20px;
+  text-align: center;
+  color: var(--background-color);
+  background-color: var(--primary-color);
+}
+
+#lastModified {
+  margin-top: 10px;
+}
