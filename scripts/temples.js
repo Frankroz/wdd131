@@ -49,6 +49,7 @@ close_icon.addEventListener("click", () => {
   header.style.justifyContent = "space-between";
 });
 
+// Check size of the screen to hide buttons
 function hideBtns() {
   if (window.innerWidth >= 874) {
     menu_icon.style.display = "none";

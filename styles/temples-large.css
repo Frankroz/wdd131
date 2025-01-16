@@ -1,5 +1,3 @@
-/* Media queries for larger screens */
-
 @media only screen and (min-width: 874px) {
   header {
     display: flex;
