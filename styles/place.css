@@ -1,0 +1,170 @@
+:root {
+  --primary-color: #3e78b2;
+  --secondary-color: #70ae6e;
+  --third-color: #272d2d;
+  --text-color: #2a2b2a;
+  --background-color: #f8f4e3;
+  --flag-yellow: #ffcf08;
+  --flag-blue: #08368b;
+  --flag-red: #ca1735;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+.yellow {
+  background-color: var(--flag-yellow);
+  padding: 20px;
+}
+
+.blue {
+  background-color: var(--flag-blue);
+  padding: 5px;
+}
+
+.red {
+  background-color: var(--flag-red);
+  padding: 5px;
+}
+
+.green {
+  background-color: var(--secondary-color);
+  padding: 5px;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.data,
+.weather {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.large_image {
+  display: none;
+}
+
+.small_image {
+  display: block;
+  width: 100%;
+}
+
+hr {
+    width: 80%;
+}
+
+.small_image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.weather_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather_icon {
+  width: 5rem;
+}
+
+/*********************
+
+    Footer
+
+********************/
+footer {
+  background-color: var(--flag-blue);
+  text-align: center;
+  color: white;
+  width: 100%;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#lastModified {
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 995px) {
+  .small_image {
+    display: none;
+  }
+
+  .content {
+    position: relative;
+    width: 100%;
+  }
+
+  .data {
+    top: 50px;
+    left: 50px;
+  }
+
+  .weather {
+    bottom: 50px;
+    right: 50px;
+  }
+
+  .data,
+  .weather {
+    display: block;
+    text-align: left;
+    position: absolute;
+    background-color: var(--secondary-color);
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .large_image {
+    display: block;
+    width: 100%;
+  }
+
+  .large_image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .weather_title {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  hr {
+    display: none;
+  }
+}
