@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="WDD 131 - Dynamic Web Fundamentals - Francisco Rodriguez - World Temples"
+    />
+    <meta name="author" content="Francisco Rodriguez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      WDD 131 - Dynamic Web Fundamentals - Francisco Rodriguez - World Temples
+    </title>
+    <link rel="stylesheet" href="styles/filtered-temples.css" />
+    <script src="scripts/filtered-temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="header_title" class="show">World Temples</h1>
+      <img id="menu_icon" class="show" src="images/menu_icon_24.png" alt="" />
+      <img id="close_icon" src="images/close_icon.png" alt="" />
+      <nav>
+        <button id="homeBtn">Home</button>
+        <button id="filterOld">Old</button>
+        <button id="filterNew">New</button>
+        <button id="filterLarge">Large</button>
+        <button id="filterSmall">Small</button>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Home</h2>
+      <div id="temple_list">
+        <!-- <figure>
+          <h2>Draper Utah Temple</h2>
+          <img src="images/draper_utah_temple.jpg" alt="Draper Utah Temple" />
+          <p><strong>Location:</strong> Draper, Utah</p>
+          <p><strong>Dedicated:</strong> 1234</p>
+          <p><strong>Size:</strong> 1233 sq km</p>
+        </figure> -->
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="currentyear"></span> Francisco Rodriguez, Colombia</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
