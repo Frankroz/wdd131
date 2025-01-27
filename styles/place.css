@@ -68,23 +68,14 @@ li {
   padding: 20px;
 }
 
-.large_image {
-  display: none;
-}
-
-.small_image {
+.hero_image img {
   display: block;
   width: 100%;
+  height: auto;
 }
 
 hr {
-    width: 80%;
-}
-
-.small_image img {
-  width: 100%;
-  height: auto;
-  display: block;
+  width: 80%;
 }
 
 .weather_title {
@@ -117,10 +108,6 @@ footer {
 }
 
 @media only screen and (min-width: 995px) {
-  .small_image {
-    display: none;
-  }
-
   .content {
     position: relative;
     width: 100%;
@@ -146,17 +133,6 @@ footer {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  }
-
-  .large_image {
-    display: block;
-    width: 100%;
-  }
-
-  .large_image img {
-    width: 100%;
-    height: auto;
-    display: block;
   }
 
   .weather_title {
