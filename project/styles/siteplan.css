@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Retro_Gaming";
+  src: url("fonts/Retro_Gaming.ttf");
+}
+
+:root {
+  --background-color: #18101c;
+  --text-color: #d9decd;
+  --primary-color: #237797;
+  --secondary-color: #64409c;
+  --third-color: #f2b035;
+  --green-shade: #8bc34a;
+}
+
+body {
+  font-family: "roboto";
+  margin: 0;
+  padding: 0;
+}
+
+/*****************
+*
+*   Header
+*
+*******************/
+
+header {
+  background-color: var(--background-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  color: var(--text-color);
+  font-size: 24px;
+  gap: 10px;
+}
+
+.logo > img {
+  width: 100px;
+  height: 100px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-family: "Retro_Gaming";
+  font-size: 1.5rem;
+}
+
+/*****************
+*
+*   Main
+*
+*******************/
+main {
+  padding: 20px;
+}
+
+.info {
+  margin-left: 20px;
+}
+
+.info > img {
+    width: 60%;
+}
+
+h1, h2, h3 {
+    font-family: "Retro_Gaming";
+}
+
+span {
+    font-family: "Retro_Gaming";
+    font-size: 1.3rem;
+}
+
+.wireframe_container > img {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.design_container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.design_container > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--accent-color2);
+}
+
+.design_container > a > img {
+    width: 40px;
+}
+
+/*****************
+*
+*   Footer
+*
+*******************/
+footer {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
