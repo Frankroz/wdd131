@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="WDD 131 - Dynamic Web Fundamentals - Francisco Rodriguez - Product review"
+    />
+    <meta name="author" content="Francisco Rodriguez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product review</title>
+    <link rel="stylesheet" href="styles/form.css" />
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>WDD 131 - Dynamic Web Fundamentals</h1>
+      <nav>
+        <a href="https://www.linkedin.com/in/francisco-rodriguez-793039248/"
+          >LinkedIn Profile</a
+        >
+        <a href="https://byupw.instructure.com/">Canvas</a>
+        <a
+          href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/32?lang=eng&id=p3#p3"
+          >Favorite Scripture</a
+        >
+        <a href="#">Final Project</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Product Review</h1>
+      <div class="form_container">
+        <form action="review.html" method="get" id="review_form">
+          <label for="productName">Product Name:</label>
+          <select id="productName" name="productName" required>
+            <option value="" disabled selected>Choose a Product...</option>
+          </select>
+
+          <label for="rating">Overall Rating:</label>
+          <div class="stars">
+            <input
+              type="radio"
+              id="fivestar"
+              name="stars"
+              value="5"
+              required
+            /><label for="fivestar"></label>
+            <input
+              type="radio"
+              id="fourstar"
+              name="stars"
+              value="4"
+              required
+            /><label for="fourstar"></label>
+            <input
+              type="radio"
+              id="threestar"
+              name="stars"
+              value="3"
+              required
+            /><label for="threestar"></label>
+            <input
+              type="radio"
+              id="twostar"
+              name="stars"
+              value="2"
+              required
+            /><label for="twostar"></label>
+            <input
+              type="radio"
+              id="onestar"
+              name="stars"
+              value="1"
+              required
+            /><label for="onestar"></label>
+          </div>
+
+          <label for="installationDate">Date of Installation:</label>
+          <input
+            type="date"
+            id="installationDate"
+            name="installationDate"
+            required
+          />
+
+          <label
+            >Which features did you find useful in the product? (Check all that
+            apply)</label
+          >
+          <div class="checkbox_option">
+            <input
+              type="checkbox"
+              id="durability"
+              name="features[]"
+              value="Durability"
+            />
+            <label for="durability">Durability</label><br />
+          </div>
+          <div class="checkbox_option">
+            <input
+              type="checkbox"
+              id="easeOfUse"
+              name="features[]"
+              value="Ease of Use"
+            />
+            <label for="easeOfUse">Ease of Use</label><br />
+          </div>
+          <div class="checkbox_option">
+            <input
+              type="checkbox"
+              id="performance"
+              name="features[]"
+              value="Performance"
+            />
+            <label for="performance">Performance</label><br />
+          </div>
+          <div class="checkbox_option">
+            <input
+              type="checkbox"
+              id="design"
+              name="features[]"
+              value="Design"
+            />
+            <label for="design">Design</label><br />
+          </div>
+
+          <label for="writtenReview">Written Review (Optional):</label>
+          <textarea id="writtenReview" name="writtenReview"></textarea>
+
+          <label for="userName">Your Name (Optional):</label>
+          <input type="text" id="userName" name="userName" />
+
+          <button type="submit">Post Review</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="currentyear"></span> Francisco Rodriguez</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
