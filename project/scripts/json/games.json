@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Super Mario 64",
+    "image": "images/games/super_mario_64.jpg",
+    "releaseYear": 1996,
+    "type": "Platformer",
+    "description": "Mario enters a 3D world of wonder in this groundbreaking Nintendo 64 classic. Explore expansive levels, collect stars, and conquer Bowser in a revolutionary leap for 3D platforming."
+  },
+  {
+    "name": "The Legend of Zelda: Ocarina of Time",
+    "image": "images/games/zelda_ocarina_of_time.jpg",
+    "releaseYear": 1998,
+    "type": "Action-Adventure",
+    "description": "Embark on a timeless adventure as young Link, wielding the mystical Ocarina of Time to travel through time and save Hyrule from impending doom."
+  },
+  {
+    "name": "Final Fantasy VII",
+    "image": "images/games/final_fantasy_vii.jpg",
+    "releaseYear": 1997,
+    "type": "RPG",
+    "description": "A groundbreaking RPG with stunning pre-rendered graphics, unforgettable characters, and a compelling story that redefined the genre."
+  },
+  {
+    "name": "Metal Gear Solid",
+    "image": "images/games/metal_gear_solid.jpg",
+    "releaseYear": 1998,
+    "type": "Stealth Action",
+    "description": "A cinematic masterpiece that redefined stealth action with its innovative gameplay, memorable characters, and gripping story."
+  },
+  {
+    "name": "Resident Evil",
+    "image": "images/games/resident_evil.jpg",
+    "releaseYear": 1996,
+    "type": "Survival Horror",
+    "description": "A pioneering survival horror game that terrified players with its atmospheric environments, tense gameplay, and iconic zombie enemies."
+  },
+  {
+    "name": "Grand Theft Auto",
+    "image": "images/games/grand_theft_auto.jpg",
+    "releaseYear": 1997,
+    "type": "Action-Adventure",
+    "description": "A groundbreaking open-world game that gave players unprecedented freedom to explore and cause chaos in a sprawling city."
+  },
+  {
+    "name": "StarCraft",
+    "image": "images/games/starcraft.jpg",
+    "releaseYear": 1998,
+    "type": "Real-time Strategy",
+    "description": "A critically acclaimed RTS that captivated players with its deep strategic gameplay, engaging story, and competitive multiplayer."
+  },
+  {
+    "name": "Half-Life",
+    "image": "images/games/half_life.jpg",
+    "releaseYear": 1998,
+    "type": "First-Person Shooter",
+    "description": "A revolutionary FPS that redefined the genre with its immersive storytelling, innovative physics engine, and groundbreaking level design."
+  },
+  {
+    "name": "Pokemon Red & Blue",
+    "image": "images/games/pokemon_red_blue.jpg",
+    "releaseYear": 1996,
+    "type": "RPG",
+    "description": "The games that started it all! Capture, train, and battle Pokémon in this beloved RPG series that has captivated millions worldwide."
+  },
+  {
+    "name": "GoldenEye 007",
+    "image": "images/games/goldeneye_007.jpg",
+    "releaseYear": 1997,
+    "type": "First-Person Shooter",
+    "description": "A legendary FPS on the Nintendo 64, known for its innovative multiplayer modes and intense single-player campaign."
+  },
+  {
+    "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "image": "images/games/donkey_kong_country_2.jpg",
+    "releaseYear": 1995,
+    "type": "Platformer",
+    "description": "A visually stunning platformer with a vibrant art style, memorable music, and challenging levels."
+  },
+  {
+    "name": "Super Mario World",
+    "image": "images/games/super_mario_world.jpg",
+    "releaseYear": 1990,
+    "type": "Platformer",
+    "description": "A classic platformer that introduced Yoshi and redefined 2D Mario gameplay with its expansive world and innovative mechanics."
+  },
+  {
+    "name": "Street Fighter II",
+    "image": "images/games/street_fighter_ii.jpg",
+    "releaseYear": 1991,
+    "type": "Fighting",
+    "description": "A landmark fighting game that revolutionized the genre with its balanced gameplay, memorable characters, and competitive multiplayer."
+  },
+  {
+    "name": "Sonic the Hedgehog 2",
+    "image": "images/games/sonic_the_hedgehog_2.jpg",
+    "releaseYear": 1992,
+    "type": "Platformer",
+    "description": "Sonic's high-speed adventure continued with improved graphics, new levels, and the introduction of Tails as a playable character."
+  },
+  {
+    "name": "Mortal Kombat II",
+    "image": "images/games/mortal_kombat_ii.jpg",
+    "releaseYear": 1993,
+    "type": "Fighting",
+    "description": "A more polished and brutal sequel to the original, Mortal Kombat II became a cultural phenomenon with its over-the-top violence and iconic characters."
+  },
+  {
+    "name": "Chrono Trigger",
+    "image": "images/games/chrono_trigger.jpg",
+    "releaseYear": 1995,
+    "type": "RPG",
+    "description": "A critically acclaimed RPG with a captivating story, memorable characters, and a unique time-traveling mechanic."
+  },
+  {
+    "name": "Twisted Metal",
+    "image": "images/games/twisted_metal.jpg",
+    "releaseYear": 1995,
+    "type": "Vehicular Combat",
+    "description": "A chaotic and over-the-top vehicular combat game that pitted players against each other in a variety of arenas."
+  },
+  {
+    "name": "X-COM: UFO Defense",
+    "image": "images/games/xcom_ufo_defense.jpg",
+    "releaseYear": 1994,
+    "type": "Strategy",
+    "description": "A turn-based strategy game where players defend Earth from an alien invasion, managing resources, researching technology, and engaging in tactical combat."
+  },
+  {
+    "name": "Doom",
+    "image": "images/games/doom.jpg",
+    "releaseYear": 1993,
+    "type": "First-Person Shooter",
+    "description": "A groundbreaking FPS that revolutionized the genre with its fast-paced action, dark atmosphere, and iconic monsters."
+  },
+  {
+    "name": "SimCity 2000",
+    "image": "images/games/simcity_2000.jpg",
+    "releaseYear": 1994,
+    "type": "City-Building Simulation",
+    "description": "A highly influential city-building simulation that allowed players to design and manage their own thriving metropolises."
+  },
+  {
+    "name": "Grand Theft Auto III",
+    "image": "images/games/gta_iii.jpg",
+    "releaseYear": 2001,
+    "type": "Action-Adventure",
+    "description": "A landmark game that brought open-world gameplay to 3D, offering a vast and immersive city to explore and conquer."
+  },
+  {
+    "name": "Halo: Combat Evolved",
+    "image": "images/games/halo_combat_evolved.jpg",
+    "releaseYear": 2001,
+    "type": "First-Person Shooter",
+    "description": "A revolutionary FPS that redefined console gaming with its epic story, innovative multiplayer, and iconic protagonist, Master Chief."
+  },
+  {
+    "name": "The Legend of Zelda: The Wind Waker",
+    "image": "images/games/zelda_wind_waker.jpg",
+    "releaseYear": 2002,
+    "type": "Action-Adventure",
+    "description": "A cel-shaded masterpiece that brought a unique art style and memorable sailing mechanics to the Zelda series."
+  },
+  {
+    "name": "Metroid Prime",
+    "image": "images/games/metroid_prime.jpg",
+    "releaseYear": 2002,
+    "type": "First-Person Shooter",
+    "description": "A groundbreaking first-person adventure that brought the Metroid series to 3D, offering immersive exploration, atmospheric environments, and thrilling combat."
+  },
+  {
+    "name": "Star Wars: Knights of the Old Republic",
+    "image": "images/games/kotor.jpg",
+    "releaseYear": 2003,
+    "type": "RPG",
+    "description": "A captivating RPG set in the Star Wars universe, featuring deep character customization, moral choices, and a compelling story."
+  },
+  {
+    "name": "Grand Theft Auto: Vice City",
+    "image": "images/games/gta_vice_city.jpg",
+    "releaseYear": 2002,
+    "type": "Action-Adventure",
+    "description": "A vibrant and stylish open-world game that transported players to the neon-drenched streets of 1980s Vice City."
+  },
+  {
+    "name": "Half-Life 2",
+    "image": "images/games/half_life_2.jpg",
+    "releaseYear": 2004,
+    "type": "First-Person Shooter",
+    "description": "A revolutionary sequel that expanded on the Half-Life formula with innovative physics, stunning visuals, and a gripping narrative."
+  },
+  {
+    "name": "World of Warcraft",
+    "image": "images/games/world_of_warcraft.jpg",
+    "releaseYear": 2004,
+    "type": "MMORPG",
+    "description": "A massively popular MMORPG that captivated millions of players with its vast world, engaging gameplay, and thriving community."
+  },
+  {
+    "name": "Resident Evil 4",
+    "image": "images/games/resident_evil_4.jpg",
+    "releaseYear": 2005,
+    "type": "Survival Horror",
+    "description": "A reinvention of the survival horror genre with over-the-shoulder camera controls, intense action, and a gripping story."
+  },
+  {
+    "name": "Shadow of the Colossus",
+    "image": "images/games/shadow_of_the_colossus.jpg",
+    "releaseYear": 2005,
+    "type": "Action-Adventure",
+    "description": "A visually stunning and emotionally resonant game with a unique boss combat system and a haunting atmosphere."
+  },
+  {
+    "name": "BioShock",
+    "image": "images/games/bioshock.jpg",
+    "releaseYear": 2007,
+    "type": "First-Person Shooter",
+    "description": "A thought-provoking FPS set in the underwater city of Rapture, combining intense combat with philosophical and political themes."
+  },
+  {
+    "name": "Portal",
+    "image": "images/games/portal.jpg",
+    "releaseYear": 2007,
+    "type": "Puzzle-Platformer",
+    "description": "A physics-based puzzle game that redefined the genre with its innovative portal mechanic and witty humor."
+  },
+  {
+    "name": "The Witcher",
+    "image": "images/games/the_witcher.jpg",
+    "releaseYear": 2007,
+    "type": "RPG",
+    "description": "A critically acclaimed RPG based on the fantasy novels, featuring a mature story, deep character development, and challenging combat."
+  },
+  {
+    "name": "Super Mario Galaxy",
+    "image": "images/games/super_mario_galaxy.jpg",
+    "releaseYear": 2007,
+    "type": "Platformer",
+    "description": "A revolutionary 3D platformer that took Mario into the cosmos, featuring innovative gravity-defying levels and stunning visuals."
+  },
+  {
+    "name": "Red Dead Redemption",
+    "image": "images/games/red_dead_redemption.jpg",
+    "releaseYear": 2010,
+    "type": "Action-Adventure",
+    "description": "An epic open-world Western adventure with a compelling story, stunning visuals, and immersive gameplay."
+  }
+]

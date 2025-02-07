@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WDD 131 - 8-bit Bliss - Francisco Rodriguez - Home page"
+    />
+    <meta name="author" content="Francisco Rodriguez" />
+    <title>8-bit Bliss - Home</title>
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="icon" href="images/icon.ico" type="image/icon" />
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navbar.js" defer></script>
+    <script type="module" src="scripts/home.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="title_heading">
+        <a class="logo" href="home.html">
+          <img src="images/logo.png" alt="8-bit Bliss" />
+          <h2>8-bit Bliss</h2>
+        </a>
+        <a class="toggle-button">
+          <img id="menu_icon" src="images/menu_icon.png" alt="menu_icon" />
+          <img id="close_icon" src="images/close_icon.png" alt="close_icon" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="consoles.html">Consoles</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero_img">
+        <img src="images/hero_banner.jpg" alt="hero_banner" />
+      </div>
+
+      <div class="container">
+        <div class="section-title">Our latest posts</div>
+        <div id="new_news" class="post-cards"></div>
+
+        <div class="section-title">Our latest games added</div>
+        <div id="new_games" class="post-cards"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="currentyear"></span><span> 8-bit Bliss</span></p>
+    </footer>
+  </body>
+</html>

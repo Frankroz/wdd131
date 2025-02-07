@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Super Mario 64 Speedrun Record Broken!",
+    "image": "images/news_images/speedrun.jpg",
+    "content": "World record shattered! Speedrunner conquers Super Mario 64 in under 1:40.",
+    "date": "2024-07-05",
+    "longer_description": "In a thrilling display of skill and dedication, a renowned speedrunner recently shattered the world record for Super Mario 64, completing the iconic Nintendo 64 game in an astonishing time of under 1 minute and 40 seconds. This remarkable achievement has sent shockwaves through the speedrunning community and captivated gamers worldwide, showcasing the incredible dedication and mastery required to master such a beloved classic."
+  },
+  {
+    "title": "New Retro Gaming Convention Announced",
+    "image": "images/news_images/convention.jpg",
+    "content": "Bit Bash arrives this summer! Tournaments, vendors, and retro gaming galore.",
+    "date": "2024-06-20",
+    "longer_description": "Get ready, retro gaming enthusiasts! A brand new convention celebrating all things retro gaming, dubbed 'Bit Bash,' is set to make its debut this summer. Expect a thrilling weekend filled with exciting tournaments featuring classic arcade games, console competitions, and a bustling marketplace brimming with vintage hardware, rare games, and retro merchandise. It's the perfect event for any fan of classic gaming to connect with fellow enthusiasts and immerse themselves in the golden age of video games."
+  },
+  {
+    "title": "Rare Game Found, Sells for $30,000!",
+    "image": "images/news_images/rare_game.jpg",
+    "content": "Sealed Stadium Events for Virtual Boy discovered in attic.",
+    "date": "2024-05-15",
+    "longer_description": "In a stroke of incredible luck, a collector recently stumbled upon a sealed copy of the incredibly rare 'Stadium Events' game for the Nintendo Virtual Boy while cleaning out their attic. This long-lost treasure, considered a holy grail by collectors, was subsequently auctioned off for a record-breaking $30,000, highlighting the enduring value of rare and sought-after retro gaming collectibles."
+  },
+  {
+    "title": "Modded SNES: A Retro Masterpiece",
+    "image": "images/news_images/modded_console.jpg",
+    "content": "Custom-built SNES with upgraded internals wows the community.",
+    "date": "2024-04-10",
+    "longer_description": "A talented modder has recently unveiled a stunning custom-built Super Nintendo Entertainment System that has captivated the retro gaming community. Featuring upgraded internals, a sleek new design, and a host of custom features, this modified console is a testament to the enduring passion and creativity of retro gaming enthusiasts."
+  },
+  {
+    "title": "Contra Creator Interview",
+    "image": "images/news_images/interview.jpg",
+    "content": "Legendary game designer shares insights on Contra's creation.",
+    "date": "2024-03-28",
+    "longer_description": "In a recent interview, the legendary game designer behind the iconic arcade game 'Contra' shared fascinating insights into the game's development, its impact on the gaming industry, and his reflections on the evolution of video games over the years. This in-depth interview offers a glimpse into the creative process and the lasting legacy of this classic action game."
+  },
+  {
+    "title": "New Retro-Inspired Game Announced",
+    "image": "images/news_images/new_game.jpg",
+    "content": "Indie dev unveils stunning pixel art platformer.",
+    "date": "2024-02-12",
+    "longer_description": "An exciting announcement has emerged from the indie game development scene! A talented indie developer has unveiled a brand new game that draws heavy inspiration from the classic 16-bit era of platformers. Featuring stunning pixel art graphics, challenging gameplay, and a captivating soundtrack, this upcoming title is sure to excite fans of retro gaming."
+  },
+  {
+    "title": "Pokemon TCG World Championships Ahead!",
+    "image": "images/news_images/pokemon_cards.jpg",
+    "content": "Get ready for intense battles at the upcoming World Championships.",
+    "date": "2024-08-15",
+    "longer_description": "The Pokémon Trading Card Game World Championships are just around the corner! Get ready for an exciting weekend of intense competition as top players from around the globe converge to battle it out for the coveted title. Expect to see skillful plays, strategic deck-building, and an electrifying atmosphere at this prestigious event."
+  },
+  {
+    "title": "Genesis Mini 2 Review Roundup",
+    "image": "images/news_images/sega_genesis_mini_2.jpg",
+    "content": "Read our reviews of Sega's latest mini console release.",
+    "date": "2024-07-25",
+    "longer_description": "Sega's latest mini console, the Genesis Mini 2, has been released, and the reviews are in! From in-depth analyses of its included games to comparisons with the original Genesis Mini, this roundup provides a comprehensive look at what critics and gamers are saying about this nostalgic and exciting new release."
+  },
+  {
+    "title": "Preserving Retro Gaming History",
+    "image": "images/news_images/game_preservation.jpg",
+    "content": "Digital archives and community efforts keep retro games alive.",
+    "date": "2024-06-05",
+    "longer_description": "As technology advances, the risk of losing access to classic video games grows. Fortunately, dedicated individuals and organizations are working tirelessly to preserve retro gaming history. Through digital archives, emulation efforts, and community initiatives, these dedicated individuals are ensuring that future generations can continue to enjoy and appreciate the rich history of video games."
+  },
+  {
+    "title": "The Rise of Online Retro Gaming Communities",
+    "image": "images/news_images/online_community.jpg",
+    "content": "Explore the vibrant world of online retro gaming communities.",
+    "date": "2024-05-20",
+    "longer_description": "The online world has become a thriving hub for retro gaming enthusiasts. From forums and Discord servers to Twitch streams and YouTube channels, dedicated communities have emerged, connecting players from around the globe. These communities provide a platform for sharing knowledge, discussing games, playing together, and preserving the legacy of classic gaming."
+  }
+]

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WDD 131 - 8-bit Bliss - Francisco Rodriguez - Consoles page"
+    />
+    <meta name="author" content="Francisco Rodriguez" />
+    <title>8-bit Bliss - Consoles</title>
+    <link rel="stylesheet" href="styles/consoles.css" />
+    <link rel="icon" href="images/icon.ico" type="image/icon" />
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navbar.js" defer></script>
+    <script type="module" src="scripts/consoles.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="title_heading">
+        <a class="logo" href="home.html">
+          <img src="images/logo.png" alt="8-bit Bliss" />
+          <h2>8-bit Bliss</h2>
+        </a>
+        <a class="toggle-button">
+          <img id="menu_icon" src="images/menu_icon.png" alt="menu_icon" />
+          <img id="close_icon" src="images/close_icon.png" alt="close_icon" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="consoles.html">Consoles</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Consoles</h1>
+
+      <div class="search-container">
+        <div class="search-bar-container">
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Search consoles..."
+            autocomplete="off"
+          />
+          <button id="search-btn">
+            <img src="images/search_icon.png" alt="search-icon" />
+          </button>
+        </div>
+        <select name="type" id="console-type">
+          <option value="def" selected>Console type...</option>
+          <option value="Home Console">Home Console</option>
+          <option value="Handheld">Handheld</option>
+        </select>
+
+        <select name="year" id="console-year">
+          <option value="def" selected>Console year...</option>
+          <option value="before">Before 2000</option>
+          <option value="after">After 2000</option>
+        </select>
+      </div>
+
+      <div id="container"></div>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="currentyear"></span><span> 8-bit Bliss</span></p>
+    </footer>
+  </body>
+</html>

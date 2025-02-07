@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Nintendo 64",
+    "image": "images/consoles/console1.jpg",
+    "description": "The N64 revolutionized 3D gaming with classics like Super Mario 64 and The Legend of Zelda: Ocarina of Time.",
+    "year": 1996,
+    "type": "Home Console",
+    "longer_description": "The Nintendo 64, or N64 for short, was a home video game console released by Nintendo in 1996. It was the first Nintendo console to utilize 3D graphics, and it introduced several innovations to the gaming industry, including the use of a controller with an analog stick. The N64 was home to many critically acclaimed games, including Super Mario 64, The Legend of Zelda: Ocarina of Time, and GoldenEye 007."
+  },
+  {
+    "name": "PlayStation",
+    "image": "images/consoles/console2.jpg",
+    "description": "The original PlayStation brought 3D gaming to the masses with iconic titles like Final Fantasy VII and Metal Gear Solid.",
+    "year": 1994,
+    "type": "Home Console",
+    "longer_description": "The original PlayStation, released by Sony in 1994, revolutionized home console gaming with its 3D graphics, CD-ROM format, and a vast library of games. It became a cultural phenomenon, with iconic titles like Final Fantasy VII, Metal Gear Solid, and Resident Evil captivating millions of players worldwide."
+  },
+  {
+    "name": "Sega Dreamcast",
+    "image": "images/consoles/console3.jpg",
+    "description": "A revolutionary console ahead of its time, known for its innovative features and unique games like Shenmue.",
+    "year": 1999,
+    "type": "Home Console",
+    "longer_description": "The Sega Dreamcast, released in 1999, was ahead of its time with features like online gaming and built-in modem support. While it ultimately wasn't a commercial success, it boasted innovative games like Shenmue and introduced groundbreaking concepts that influenced future consoles."
+  },
+  {
+    "name": "Xbox",
+    "image": "images/consoles/console4.jpg",
+    "description": "Microsoft's entry into the console market, known for its powerful hardware and unique controller.",
+    "year": 2001,
+    "type": "Home Console",
+    "longer_description": "The Xbox, released by Microsoft in 2001, marked the company's entry into the console market. It boasted powerful hardware, online connectivity through Xbox Live, and a unique controller with two analog sticks. The Xbox launched with a strong lineup of games and quickly gained a loyal following."
+  },
+  {
+    "name": "Game Boy Advance",
+    "image": "images/consoles/console5.jpg",
+    "description": "A handheld powerhouse with a vast library of classic games.",
+    "year": 2001,
+    "type": "Handheld",
+    "longer_description": "The Game Boy Advance, released in 2001, was a powerful handheld console that boasted a large library of classic games, including many remakes of popular Game Boy and Super Nintendo titles. Its impressive graphics and portability made it a huge success."
+  },
+  {
+    "name": "Nintendo GameCube",
+    "image": "images/consoles/console6.jpg",
+    "description": "Home to unique and innovative games like Super Smash Bros. Melee and Metroid Prime.",
+    "year": 2001,
+    "type": "Home Console",
+    "longer_description": "The Nintendo GameCube, released in 2001, is known for its unique controller and a strong library of innovative and critically acclaimed games, including Super Smash Bros. Melee, Metroid Prime, and The Legend of Zelda: The Wind Waker."
+  },
+  {
+    "name": "PlayStation 2",
+    "image": "images/consoles/console7.jpg",
+    "description": "A best-selling console with a massive library of games.",
+    "year": 2000,
+    "type": "Home Console",
+    "longer_description": "The PlayStation 2, released in 2000, became the best-selling home video game console of all time, boasting a massive library of games across various genres and solidifying Sony's dominance in the console market."
+  },
+  {
+    "name": "Xbox 360",
+    "image": "images/consoles/console8.jpg",
+    "description": "Introduced online gaming to a wider audience with Xbox Live.",
+    "year": 2005,
+    "type": "Home Console",
+    "longer_description": "The Xbox 360, released in 2005, revolutionized online gaming with its Xbox Live service. It boasted powerful hardware, a strong library of exclusive titles, and a focus on online multiplayer gaming."
+  },
+  {
+    "name": "Wii",
+    "image": "images/consoles/console9.jpg",
+    "description": "Revolutionized gaming with motion controls and innovative gameplay.",
+    "year": 2006,
+    "type": "Home Console",
+    "longer_description": "The Wii, released in 2006, revolutionized gaming with its motion-controlled Wii Remote, bringing innovative and family-friendly gameplay experiences to a wider audience."
+  },
+  {
+    "name": "PlayStation 3",
+    "image": "images/consoles/console10.jpg",
+    "description": "A powerful console with a focus on Blu-ray and online gaming.",
+    "year": 2006,
+    "type": "Home Console",
+    "longer_description": "The PlayStation 3, released in 2006, was a powerful console with Blu-ray support, online gaming features, and a strong library of games, including exclusive titles like God of War and Uncharted."
+  },
+  {
+    "name": "Nintendo DS",
+    "image": "images/consoles/console11.jpg",
+    "description": "A popular handheld console with dual screens and touch controls.",
+    "year": 2004,
+    "type": "Handheld",
+    "longer_description": "The Nintendo DS, released in 2004, gained immense popularity with its dual screens, touch controls, and a vast library of games, including Pokémon, Nintendogs, and Brain Age."
+  },
+  {
+    "name": "PlayStation Portable",
+    "image": "images/consoles/console12.jpg",
+    "description": "A portable console with a strong focus on gaming on the go.",
+    "year": 2005,
+    "type": "Handheld",
+    "longer_description": "The PlayStation Portable, released in 2005, offered a powerful gaming experience on the go, with a strong library of games, including Metal Gear Solid: Peace Walker and God of War: Chains of Olympus."
+  }
+]
