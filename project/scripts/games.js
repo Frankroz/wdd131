@@ -8,6 +8,7 @@ const gameTypes = [...new Set(games.map((game) => game.type))];
 
 const yearFilter = document.getElementById("game-year");
 const typeFilter = document.getElementById("game-type");
+const resetBtn = document.getElementById("reset");
 
 function createTypeOptions(types) {
   typeFilter.innerHTML =
@@ -29,6 +30,10 @@ function filterGames() {
   const newGames = games.filter((gamesInfo) => {
     let matchesYear = true;
     let matchesType = true;
+
+    if (resetBtn.disabled === true) {
+      resetBtn.disabled = false;
+    }
 
     if (selectedYear !== "def") {
       if (selectedYear === "before") {
@@ -52,6 +57,14 @@ function filterGames() {
 
 yearFilter.addEventListener("change", filterGames);
 typeFilter.addEventListener("change", filterGames);
+
+resetBtn.addEventListener("click", () => {
+  yearFilter.value = "def";
+  typeFilter.value = "def";
+
+  resetBtn.disabled = true;
+  displayCards(games);
+});
 
 const cardList = document.getElementById("container");
 

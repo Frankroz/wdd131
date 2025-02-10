@@ -48,6 +48,7 @@ searchBtn.addEventListener("click", () => {
 
 const yearFilter = document.getElementById("console-year");
 const typeFilter = document.getElementById("console-type");
+const resetBtn = document.getElementById("reset");
 function filterConsoles() {
   const selectedYear = yearFilter.value;
   const selectedType = typeFilter.value;
@@ -55,6 +56,10 @@ function filterConsoles() {
   const newConsoles = consoles.filter((consoleinfo) => {
     let matchesYear = true;
     let matchesType = true;
+
+    if (resetBtn.disabled === true) {
+      resetBtn.disabled = false;
+    }
 
     if (selectedYear !== "def") {
       if (selectedYear === "before") {
@@ -78,3 +83,11 @@ function filterConsoles() {
 
 yearFilter.addEventListener("change", filterConsoles);
 typeFilter.addEventListener("change", filterConsoles);
+
+resetBtn.addEventListener("click", () => {
+  yearFilter.value = "def";
+  typeFilter.value = "def";
+
+  resetBtn.disabled = true;
+  displayCards(consoles);
+});

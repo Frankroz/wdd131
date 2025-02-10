@@ -43,17 +43,29 @@ searchBtn.addEventListener("click", () => {
 });
 
 const dateSort = document.getElementById("sort-date");
-function sortNews() {
-  const dateSortValue = dateSort.value;
-  var newNews = [];
+const resetBtn = document.getElementById("reset");
 
-  if (dateSortValue === "latest") {
-    newNews = news.sort((a, b) => (a.date < b.date ? 1 : -1));
-  } else if (dateSortValue === "oldest") {
-    newNews = news.sort((a, b) => (a.date > b.date ? 1 : -1));
+function sortNews() {
+  let newNews = [];
+
+  if (resetBtn.disabled === true) {
+    resetBtn.disabled = false;
+  }
+
+  if (dateSort.value === "latest") {
+    newNews = news.toSorted((a, b) => (a.date < b.date ? 1 : -1));
+  } else if (dateSort.value === "oldest") {
+    newNews = news.toSorted((a, b) => (a.date > b.date ? 1 : -1));
   }
 
   displayCards(newNews);
 }
+
+resetBtn.addEventListener("click", () => {
+  dateSort.value = "def";
+
+  resetBtn.disabled = true;
+  displayCards(news);
+});
 
 dateSort.addEventListener("change", sortNews);
