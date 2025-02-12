@@ -1,8 +1,16 @@
-const games = await fetch("./scripts/json/games.json")
-  .then((response) => response.json())
-  .catch((error) => {
-    console.error("Error loading JSON:", error);
-  });
+var games = {};
+// Get games from localStorage or "database"
+if (localStorage.games) {
+  games = JSON.parse(localStorage.games);
+} else {
+  games = await fetch("./scripts/json/games.json")
+    .then((response) => response.json())
+    .catch((error) => {
+      console.error("Error loading JSON:", error);
+    });
+
+  localStorage.games = JSON.stringify(games);
+}
 
 const gameTypes = [...new Set(games.map((game) => game.type))];
 
@@ -10,6 +18,7 @@ const yearFilter = document.getElementById("game-year");
 const typeFilter = document.getElementById("game-type");
 const resetBtn = document.getElementById("reset");
 
+// Create the options for the filters
 function createTypeOptions(types) {
   typeFilter.innerHTML =
     '<option value="def" selected="">Game type...</option>';
@@ -22,7 +31,7 @@ function createTypeOptions(types) {
 }
 
 createTypeOptions(gameTypes);
-
+// Depending on the value of the filter, sort the games 
 function filterGames() {
   const selectedYear = yearFilter.value;
   const selectedType = typeFilter.value;
@@ -57,7 +66,7 @@ function filterGames() {
 
 yearFilter.addEventListener("change", filterGames);
 typeFilter.addEventListener("change", filterGames);
-
+// Reset button
 resetBtn.addEventListener("click", () => {
   yearFilter.value = "def";
   typeFilter.value = "def";
@@ -68,6 +77,7 @@ resetBtn.addEventListener("click", () => {
 
 const cardList = document.getElementById("container");
 
+// Display the cards in the container
 function displayCards(games) {
   cardList.innerHTML = "";
   games.forEach((gameInfo) => {
@@ -86,7 +96,7 @@ function displayCards(games) {
 }
 
 displayCards(games);
-
+// Search by name/description
 const searchBtn = document.getElementById("search-btn");
 const searchInput = document.getElementById("searchInput");
 searchBtn.addEventListener("click", () => {

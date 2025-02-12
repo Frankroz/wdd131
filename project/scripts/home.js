@@ -1,21 +1,39 @@
-const games = await fetch("./scripts/json/games.json")
-  .then((response) => response.json())
-  .catch((error) => {
-    console.error("Error loading JSON:", error);
-  });
+var games = {};
+// Get games from localStorage or "database"
+if (localStorage.games) {
+  games = JSON.parse(localStorage.games);
+} else {
+  games = await fetch("./scripts/json/games.json")
+    .then((response) => response.json())
+    .catch((error) => {
+      console.error("Error loading JSON:", error);
+    });
 
-const news = await fetch("./scripts/json/news.json")
-  .then((response) => response.json())
-  .catch((error) => {
-    console.error("Error loading JSON:", error);
-  });
+  localStorage.games = JSON.stringify(games);
+}
 
+var news = {};
+// Get news from localStorage or "database"
+if (localStorage.news) {
+  news = JSON.parse(localStorage.news);
+} else {
+  news = await fetch("./scripts/json/news.json")
+    .then((response) => response.json())
+    .catch((error) => {
+      console.error("Error loading JSON:", error);
+    });
+
+  localStorage.news = JSON.stringify(news);
+}
+
+// Get the latest games/news
 const newNews = news.sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, 3);
 const newGames = games.slice(games.length - 3, games.length);
 
 const newNews_container = document.getElementById("new_news");
 const newGames_container = document.getElementById("new_games");
 
+// Show the lastest news on the page
 function displayLatestNews() {
   newNews_container.innerHTML = "";
 
@@ -35,6 +53,7 @@ function displayLatestNews() {
   });
 }
 
+// Show the latest games
 function displayLatestGames() {
   newGames_container.innerHTML = "";
 

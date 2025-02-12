@@ -1,11 +1,19 @@
-const consoles = await fetch("./scripts/json/consoles.json")
-  .then((response) => response.json())
-  .catch((error) => {
-    console.error("Error loading JSON:", error);
-  });
+var consoles = {};
+// Get games from localStorage or "database"
+if (localStorage.consoles) {
+  consoles = JSON.parse(localStorage.consoles);
+} else {
+  consoles = await fetch("./scripts/json/consoles.json")
+    .then((response) => response.json())
+    .catch((error) => {
+      console.error("Error loading JSON:", error);
+    });
+
+  localStorage.consoles = JSON.stringify(consoles);
+}
 
 const consoleCardList = document.getElementById("container");
-
+// Display the cards in the container
 function displayCards(consoles) {
   consoleCardList.innerHTML = "";
   consoles.forEach((consoleinfo) => {
@@ -27,8 +35,8 @@ function displayCards(consoles) {
   });
 }
 
-displayCards(consoles);
-
+displayCards(consoles); 
+// Search by name/description
 const searchBtn = document.getElementById("search-btn");
 const searchInput = document.getElementById("searchInput");
 searchBtn.addEventListener("click", () => {
@@ -45,7 +53,7 @@ searchBtn.addEventListener("click", () => {
 
   displayCards(newConsoles);
 });
-
+// Depending on the value of the filter, sort the consoles
 const yearFilter = document.getElementById("console-year");
 const typeFilter = document.getElementById("console-type");
 const resetBtn = document.getElementById("reset");
@@ -84,6 +92,7 @@ function filterConsoles() {
 yearFilter.addEventListener("change", filterConsoles);
 typeFilter.addEventListener("change", filterConsoles);
 
+// Reset button
 resetBtn.addEventListener("click", () => {
   yearFilter.value = "def";
   typeFilter.value = "def";
