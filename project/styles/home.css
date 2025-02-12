@@ -199,6 +199,11 @@ footer {
   width: 100%;
 }
 
+footer > p > a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 @media (max-width: 995px) {
   header {
     display: flex;
